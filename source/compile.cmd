@@ -1,1 +1,0 @@
-python closure-library/closure/bin/build/closurebuilder.py --root=closure-library/ --root=sample/ --namespace="sample.start" --output_mode=compiled --compiler_jar=c:\java\bin\compiler\compiler.jar > sample/start-compiled.js

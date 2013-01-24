@@ -1,0 +1,16 @@
+Basics:
+https://developers.google.com/closure/library/docs/closurebuilder
+https://developers.google.com/closure/compiler/
+
+1. Download Closure Library at:
+http://code.google.com/p/closure-library/downloads/list
+
+2. unpack zip file under source/closure-library
+
+3. Download Closure Compiler at:
+http://closure-compiler.googlecode.com/files/compiler-latest.zip
+
+4. Set JS_COMPILER in compile-sample.cmd and run
+
+
+
