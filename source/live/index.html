@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="../closure-library/closure/goog/base.js"></script>
+    <script src="js-deps.js"></script>
+    <script>
+    goog.require('gb.Loader');
+    </script>
+  </head>
+  <body>
+    <script>
+    var app = new gb.Loader("test debug", "test description");
+    app.Render();
+    </script>
+  </body>
+</html>
