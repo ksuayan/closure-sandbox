@@ -3,7 +3,7 @@ clear
 echo "Main Dependencies"
 echo "-----------------"
 JS_COMPILER="../../compiler-latest/compiler.jar"
-JS_COMPILER_LEVEL="SIMPLE_OPTIMIZATIONS"
+JS_COMPILER_LEVEL="ADVANCED_OPTIMIZATIONS"
 
 python closure-library/closure/bin/build/depswriter.py \
 --root_with_prefix="js ../../../js" \
