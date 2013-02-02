@@ -1,7 +1,7 @@
 'use strict';
 
 goog.provide('gb.Loader');
-goog.require('goog.dom');
+goog.require('gb.ui');
 
 /** @constructor */
 gb.Loader = function(title, desc) {
@@ -11,10 +11,10 @@ gb.Loader = function(title, desc) {
 
 /** @expose */
 gb.Loader.prototype.Render = function() {
-    goog.dom.appendChild(document.body, goog.dom.createDom('h1', {'style': 'background-color:#EEE'}, this.title));
-    goog.dom.appendChild(document.body, goog.dom.createDom('p', {'style': 'background-color:#EEE'}, this.description));
     console.debug(this.title);
     console.debug(this.description);
+    var newsItem = new NewsItem({title: this.title, body: this.description});
+    newsItem.changeTitle("Updated Title");
 };
 
 goog.exportSymbol('gb.Loader', gb.Loader);

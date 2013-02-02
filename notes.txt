@@ -1,6 +1,7 @@
 Basics:
 https://developers.google.com/closure/library/docs/closurebuilder
 https://developers.google.com/closure/compiler/
+http://code.google.com/p/plovr/downloads/list
 
 1. Download Closure Library at:
 http://code.google.com/p/closure-library/downloads/list
