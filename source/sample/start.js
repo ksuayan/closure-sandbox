@@ -1,5 +1,4 @@
 goog.provide('sample.start');
-
 goog.require('goog.dom');
 
 sample.start = function() {
